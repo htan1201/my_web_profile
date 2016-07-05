@@ -16,6 +16,14 @@ body {
     border-radius: 50%;
 }
 
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
 /*********************************
  SLIDES
 **********************************/
@@ -113,14 +121,6 @@ body {
 /*****************************
 ARTICLES SECTION
 ******************************/
-.article-link:link,
-.article-link:visited,
-.article-link:hover,
-.article-link:active {
-    text-decoration: none;
-    color: black;
-}
-
 .articles {
     border: solid 2px #32CD32;
     padding-top: 15px;
