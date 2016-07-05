@@ -122,14 +122,15 @@ ARTICLES SECTION
 }
 
 .articles {
-    border: solid 1px #D3D3D3;
+    border: solid 2px #32CD32;
+    padding-top: 15px;
     border-radius: 10px;
 }
+
 @media screen and (max-width: 767px) {
     .articles {
         width: 70%;
         margin: 0 auto;
-        padding-top: 10px;
         margin-top: 10px;
     }
 }
