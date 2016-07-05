@@ -127,6 +127,23 @@ ARTICLES SECTION
     border-radius: 10px;
 }
 
+/*****************************
+FOOTER SECTION
+******************************/
+.footer {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #32CD32;
+    border-radius: 10px;
+}
+.footer-title{
+    color: white;
+    font-weight: bold;
+}
+
+/*****************************
+MEDIA QUERY FOR SPECIAL STYLING FOR MOBILE VIEW
+******************************/
 @media screen and (max-width: 767px) {
     .articles {
         width: 70%;
