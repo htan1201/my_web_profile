@@ -113,12 +113,23 @@ body {
 /*****************************
 ARTICLES SECTION
 ******************************/
+.article-link:link,
+.article-link:visited,
+.article-link:hover,
+.article-link:active {
+    text-decoration: none;
+    color: black;
+}
+
 .articles {
-    border: solid 3px red;
+    border: solid 1px #D3D3D3;
+    border-radius: 10px;
 }
 @media screen and (max-width: 767px) {
     .articles {
         width: 70%;
         margin: 0 auto;
+        padding-top: 10px;
+        margin-top: 10px;
     }
 }
