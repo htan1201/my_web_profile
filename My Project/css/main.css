@@ -16,6 +16,12 @@ body {
     border-radius: 50%;
 }
 
+.contact-list {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+a,
 a:link,
 a:visited,
 a:hover,
