@@ -1,6 +1,21 @@
 /*******************************
 THE FOLLOWING STYLES ARE FOR MOBILE FIRST
 ********************************/
+/*******************************
+ICON FONTS FROM WWW.WELOVEICONFONTS.COM
+********************************/
+@import url(http://weloveiconfonts.com/api/?family=brandico|zocial);
+
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
 /********************************
 GENERAL STYLES
 ********************************/
@@ -9,6 +24,7 @@ body {
 }
 
 .logo {
+    margin-top: 10px;
     text-align: center;
 }
 
@@ -56,6 +72,11 @@ a:active {
 /*********************************
             NAV BAR
 **********************************/
+.navi {
+    /*Create space between the picture and the top navigation*/
+    margin-top: 10px;
+}
+
 .topnavi li a:hover {
     background-color: #FF6347;
 }
@@ -138,15 +159,36 @@ FOOTER SECTION
 ******************************/
 .footer {
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
     background-color: #32CD32;
     border-radius: 10px;
+    font-family: 'Fredoka One', cursive;
 }
 .footer-title{
     color: white;
     font-weight: bold;
 }
 
+/*ICON FONTS COLORS*/
+.contact-item1 {
+    color: #3b5998;
+}
+
+.contact-item2 {
+    color: #1da1f2;
+}
+
+.contact-item3 {
+    color: #d64937;
+}
+
+.contact-item4 {
+    color: #1b86bd;
+}
+
+.contact-list li {
+    margin-top: 10px;
+}
 /*****************************
 MEDIA QUERY FOR SPECIAL STYLING FOR MOBILE VIEW
 ******************************/
