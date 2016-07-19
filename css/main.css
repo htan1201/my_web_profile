@@ -1,0 +1,159 @@
+/*******************************
+THE FOLLOWING STYLES ARE FOR MOBILE FIRST
+********************************/
+/********************************
+GENERAL STYLES
+********************************/
+body {
+    margin: 0 auto;
+}
+
+.logo {
+    text-align: center;
+}
+
+#web-logo {
+    border-radius: 50%;
+}
+
+.contact-list {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+/*********************************
+ SLIDES
+**********************************/
+.slide-item {
+    width: 100%;
+}
+
+.slides {
+    margin-top: 10px;
+}
+
+.slick-next:before, .slick-prev:before {
+    color: black;
+}
+
+.slick-prev{
+  left: 1.5%;
+  z-index: 1;
+}
+.slick-next{
+  right: 1.5%;
+}
+
+/*********************************
+            NAV BAR
+**********************************/
+.topnavi li a:hover {
+    background-color: #FF6347;
+}
+
+/*hide all list items, except for the first one ("Home")*/
+.topnavi li:not(:first-child) {
+    display: none;
+}
+
+.topnavi li {
+    float: left;
+    display: inline;
+}
+
+#home {
+    height: 53px;
+}
+
+.active .icon{
+    background-color: #32CD32;
+}
+
+/*Show the list item that contains the link to open and close the topnav (li.icon) */
+.topnavi li.icon {
+    float: right;
+    display: inline-block;
+}
+
+.topnavi li a {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.topnavi {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #32CD32;
+    border-radius: 10px;
+}
+
+/*when responsive class is inserted by jquery*/
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
+.topnavi.responsive {
+    position: relative;
+}
+.topnavi.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.topnavi.responsive li {
+    float: none;
+    display: inline;
+}
+.topnavi.responsive li a {
+    display: block;
+    text-align: left;
+}
+
+/*****************************
+ARTICLES SECTION
+******************************/
+.articles {
+    border: solid 2px #32CD32;
+    padding-top: 15px;
+    border-radius: 10px;
+}
+
+/*****************************
+FOOTER SECTION
+******************************/
+.footer {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #32CD32;
+    border-radius: 10px;
+}
+.footer-title{
+    color: white;
+    font-weight: bold;
+}
+
+/*****************************
+MEDIA QUERY FOR SPECIAL STYLING FOR MOBILE VIEW
+******************************/
+@media screen and (max-width: 767px) {
+    .articles {
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+}
