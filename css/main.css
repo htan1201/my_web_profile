@@ -99,6 +99,10 @@ a:active {
     background-color: #32CD32;
 }
 
+.topnavi .icon a:hover {
+    background-color: #32CD32;
+}
+
 /*Show the list item that contains the link to open and close the topnav (li.icon) */
 .topnavi li.icon {
     float: right;
