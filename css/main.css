@@ -198,6 +198,20 @@ MEDIA QUERY FOR SPECIAL STYLING FOR MOBILE VIEW
 MEDIA QUERY FOR TABLET AND DESKTOP VIEW
 *****************************/
 @media screen and (min-width: 768px) {
+    #web-logo {
+        float: left;
+    }
+
+    .title-section {
+        padding-top: 20px;
+    }
+
+    .name,
+    .title {
+        float: right;
+        clear: both;
+    }
+
     ul.topnav li a:hover {
         background-color: tomato;
     }
