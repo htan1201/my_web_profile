@@ -161,6 +161,7 @@ FOOTER SECTION
 .footer-title{
     color: white;
     font-weight: bold;
+    font-size: 20px;
 }
 
 /*ICON FONTS COLORS*/
@@ -182,6 +183,7 @@ FOOTER SECTION
 
 .contact-list li {
     margin-top: 10px;
+    font-size: 17px;
 }
 /*****************************
 MEDIA QUERY FOR SPECIAL STYLING FOR MOBILE VIEW
@@ -200,6 +202,7 @@ MEDIA QUERY FOR TABLET AND DESKTOP VIEW
 @media screen and (min-width: 768px) {
     #web-logo {
         float: left;
+        padding-left: 10px;
     }
 
     .title-section {
@@ -223,6 +226,11 @@ MEDIA QUERY FOR TABLET AND DESKTOP VIEW
 
     .articles:hover {
         border: 2px solid #32CD32;
+    }
+
+    .contact-list li {
+        display: inline;
+        padding-bottom: 20px;
     }
 
     
