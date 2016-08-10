@@ -1,0 +1,53 @@
+/*********************************
+ SLIDES
+**********************************/
+.slide-item {
+    width: 100%;
+}
+
+.slides {
+    margin-top: 10px;
+}
+
+.slick-next:before, .slick-prev:before {
+    color: black;
+}
+
+.slick-prev{
+  left: 1.5%;
+  z-index: 1;
+}
+.slick-next{
+  right: 1.5%;
+}
+
+/*****************************
+ARTICLES SECTION
+******************************/
+.articles {
+    border: solid 2px #32CD32;
+    padding-top: 15px;
+    border-radius: 10px;
+}
+
+/*****************************
+MEDIA QUERY FOR SPECIAL STYLING FOR MOBILE VIEW FOR THE ARTICLES SECTION
+******************************/
+@media screen and (max-width: 767px) {
+    .articles {
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .articles {
+        height: 320px;
+        border: none;
+    }
+
+    .articles:hover {
+        border: 2px solid #32CD32;
+    }
+}

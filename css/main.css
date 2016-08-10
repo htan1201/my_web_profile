@@ -48,29 +48,6 @@ a:active {
 }
 
 /*********************************
- SLIDES
-**********************************/
-.slide-item {
-    width: 100%;
-}
-
-.slides {
-    margin-top: 10px;
-}
-
-.slick-next:before, .slick-prev:before {
-    color: black;
-}
-
-.slick-prev{
-  left: 1.5%;
-  z-index: 1;
-}
-.slick-next{
-  right: 1.5%;
-}
-
-/*********************************
             NAV BAR
 **********************************/
 .navi {
@@ -141,15 +118,6 @@ ul.topnav li.icon {
 }
 
 /*****************************
-ARTICLES SECTION
-******************************/
-.articles {
-    border: solid 2px #32CD32;
-    padding-top: 15px;
-    border-radius: 10px;
-}
-
-/*****************************
 FOOTER SECTION
 ******************************/
 .footer {
@@ -186,20 +154,18 @@ FOOTER SECTION
     margin-top: 10px;
     font-size: 17px;
 }
-/*****************************
-MEDIA QUERY FOR SPECIAL STYLING FOR MOBILE VIEW
-******************************/
-@media screen and (max-width: 767px) {
-    .articles {
-        width: 70%;
-        margin: 0 auto;
-        margin-top: 10px;
-    }
-}
+
 
 /****************************
 MEDIA QUERY FOR TABLET AND DESKTOP VIEW
 *****************************/
+
+@media screen and (min-width: 681px) {
+    .selected {
+        background-color: #228B22;
+    }
+}
+
 @media screen and (min-width: 768px) {
     #web-logo {
         float: left;
@@ -220,19 +186,8 @@ MEDIA QUERY FOR TABLET AND DESKTOP VIEW
         background-color: tomato;
     }
 
-    .articles {
-        height: 320px;
-        border: none;
-    }
-
-    .articles:hover {
-        border: 2px solid #32CD32;
-    }
-
     .contact-list li {
         display: inline;
         padding-bottom: 20px;
     }
-
-    
 }
