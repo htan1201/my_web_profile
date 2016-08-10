@@ -12,16 +12,12 @@
 
         <!-- Latest BOOTSTRAP compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-        <!-- Slick.css -->
-        <link rel="stylesheet" type="text/css" href="slick-1.6.0/slick/slick.css"/>
-        <!-- Add the new slick-theme.css if you want the default styling -->
-        <link rel="stylesheet" type="text/css" href="slick-1.6.0/slick/slick-theme.css"/>
         <!-- GOOGLE FONTS -->
         <link href='https://fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet' type='text/css'>
         <!-- Main.css -->
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <!-- CSS specifically only for index.html -->
-        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="css/myProjects.css">
     </head>
     <body class="container">
         <!-- HEADER -->
@@ -39,8 +35,8 @@
         <!-- NAVIGATION BAR -->
         <nav class="navi row">
             <ul class="topnav" id="myTopnav">
-              <li class="nav-items selected"><a href="index.html">Home</a></li>
-              <li class="nav-items"><a href="myProjects.html">My Projects</a></li>
+              <li class="nav-items"><a href="index.html">Home</a></li>
+              <li class="nav-items selected"><a href="myProjects.html">My Projects</a></li>
               <li class="nav-items"><a href="#contact">Blog</a></li>
               <li class="nav-items"><a href="aboutMe.html">About Me</a></li> 
               <li class="nav-items"><a href="#about">Contact</a></li>
@@ -49,43 +45,9 @@
               </li>
             </ul>
         </nav>
-        
-        <!-- SLIDES using SLICK -->
-        <section class="carousel row">
-            <div class="slides">
-              <div><img class="slide-item" src="http://placehold.it/721x320"></div>
-              <div><img class="slide-item" src="http://placehold.it/721x320"></div>
-              <div><img class="slide-item" src="http://placehold.it/721x320"></div>
-            </div>
-        </section>
 
-        <!-- Articles showcase -->
-        <section class="row text-center article-list">
-        <h2>All About Me</h2>
-            <div class="col-sm-4 articles">
-                <a href="aboutMe.html" class="article-link">
-                    <img class="article-img img-responsive center-block" src="http://placehold.it/350x150">
-                    <h3 class="article-heading">About Me</h3>
-                    <p class="description">I am a junior web developer who is keen on development in digital space such as websites, apps and many more. in this page, you will be able to find out more about me. Such as my qualifications and skills.</p>
-                </a>
-            </div>
-            
-            <div class="col-sm-4 articles">
-                <a href="myProjects.html" class="article-link">
-                    <img class="article-img img-responsive center-block" src="http://placehold.it/350x150">
-                    <h3 class="article-heading">My Projects</h3>
-                    <p class="description">In this page, I will showcase some of my projects that I have done. feel free to browse and if you are interested in developing further, you can clone the repo from my github.</p>
-                </a>
-            </div>
-            
-            
-            <div class="col-sm-4 articles">
-                <a href="myBlog.html" class="article-link">
-                    <img class="article-img img-responsive center-block" src="http://placehold.it/350x150">
-                    <h3 class="article-heading">Blog</h3>
-                    <p class="description">In this page, there are some events that I have recorded, some of them are for my own memories and some of them are for people who might enjoy viewing them. Fell free to look!!</p>
-                </a>
-            </div>
+        <section class="row projects">
+
         </section>
 
         <!-- Footer -->
@@ -99,8 +61,24 @@
             </ul>          
         </footer>
 
-        <script type="text/javascript" src="slick-1.6.0/slick/slick.min.js"></script>
+        <!-- TEMPLATES -->
+        <script type="text/templates" id="project-items">
+            <div class="projects-item col-sm-4">
+                
+            </div>
+        </script>
+
         <script async src="JS/menuToggle.js"></script>
-        <script async src="JS/slick.js"></script>
+
+  
     </body>
 </html>
+
+
+
+
+
+
+
+
+

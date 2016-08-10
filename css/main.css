@@ -87,13 +87,18 @@ ul.topnav li.icon {
     display: none;
 }
 
+/**************************************
+THE FOLLOWING CODE WILL RE-APPEAR IN EVERY CSS FOR SPECIFIC PAGE
+**************************************/
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
-@media screen and (max-width:680px) {
+/*@media screen and (max-width:680px) {
+
+      DISPLAY ONLY HOME (FOR EVERY PAGE WILL HAVE DIFFERENT CODE FOR
       ul.topnav li:not(:first-child) {
             display: none;
       }
 
-      ul.topnav li.icon {
+     ul.topnav li.icon {
             float: right;
             display: inline-block;
       }
@@ -115,7 +120,7 @@ ul.topnav li.icon {
             display: block;
             text-align: left;
       }
-}
+}*/
 
 /*****************************
 FOOTER SECTION
