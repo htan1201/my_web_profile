@@ -31,3 +31,37 @@ NAVBAR SELECTION LABEL FOR MOBILE VIEW
       }
 }
 
+/********************************
+PROJECT ARTICLE STYLING
+*********************************/
+/*parent flex*/
+.project-section {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items:center;
+}
+/*child flex*/
+.project-entry {
+      border: solid 1px #eee;
+      width: 100%;
+      margin: 10px auto;
+      box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.36);
+}
+
+@media screen and (min-width:681px) {
+      .project-entry {
+            width: 45%;
+            height: 300px;
+            flex-basis: auto;
+      }
+}
+
+@media screen and (min-width: 1000px) {
+      .project-entry {
+            width: 30%;
+            height: 340px;
+      }
+}
